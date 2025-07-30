@@ -1,4 +1,3 @@
-// routes/jobRoutes.js
 import express from "express";
 import {
     getAllJobs,

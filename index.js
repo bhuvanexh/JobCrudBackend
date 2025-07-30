@@ -1,4 +1,3 @@
-// index.js
 import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
@@ -14,11 +13,9 @@ const PORT = process.env.PORT || 5000;
 // Connect to MongoDB
 connectDB();
 
-// Middleware
 app.use(cors({ origin: "*" }));
 app.use(express.json());
 
-// Routes
 app.use("/api/jobs", jobRoutes);
 
 
@@ -34,8 +31,3 @@ app.use(errorHandler);
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
-
-
-
-
-// 25b6NEikMcpmmaik

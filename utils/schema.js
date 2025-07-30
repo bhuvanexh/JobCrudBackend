@@ -1,4 +1,3 @@
-// utils/validationSchema.js
 import * as yup from "yup";
 
 // Allow only letters, numbers, commas, dashes, and spaces
